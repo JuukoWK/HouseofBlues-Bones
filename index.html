@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>House of Blues</title>
+</head>
+<body>
+   <div class="main-container">
+	<section class="play-list">
+		<div class="container-post">
+			<img src="img/dyk.jpg" alt="Dee Yan-Kee">
+			
+		</div>
+		<div class="container-title">
+			<p class="name-artist">Dee Yan-Kee</p>
+			<h2>Album</h2>
+		</div>
+		<div class="container-songs">
+			<ul class="list-songs">
+			<li class="song">
+				<p>Dee Yan-Kee - namer song 1</p>
+				<audio id="song1" src="audio/DeeYanKee1.mp3" preload="auto">
+				</audio>
+
+				<button onclick="document.getElementById('song1').play();"> Play &#9658;
+				</button>
+					
+			</li>
+			<li class="song">
+				<p>Klepton</p>
+				<audio id="song2" src="audio/Klepton.mp3" type="audio/mpeg"></audio>
+
+				<button onclick="document.getElementById('song2').play();">Play &#9658; </button>
+				
+			</li>
+			<li class="song">
+				<p>Lobo Loco </p>
+				<audio id="song3" src="audio/LoboLoco.mp3" type="audio/mpeg"></audio>
+
+				<button onclick="document.getElementById('song3').play();">Play &#9658; </button>
+			</li>
+			<li class="song">
+				<p>Paradiso</p>
+				<audio id="song4" src="audio/Paradiso.mp3" type="audio/mpeg"></audio>
+
+				<button onclick="document.getElementById('song4').play();">Play &#9658; </button>
+			</li>				
+		
+			</ul>
+		</div>
+	</section>
+	</div>
+	<script src="js/code.js"></script>
+</body>
+</html>

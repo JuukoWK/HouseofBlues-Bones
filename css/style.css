@@ -1,0 +1,105 @@
+body {
+    display: grid;
+    grid-auto-columns: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-image:url("../../img/jazzclub.jpg");
+    background-size: cover;
+    background-attachment: fixed;  
+    background-repeat: none;
+}
+
+.main-container{
+        width: 100%;
+        min-height: 100%;
+        display: grid;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+        position: relative;
+}
+
+.play-list{
+    width: 100%;
+    max-width: 400px;
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    align-items: center;
+    background: black;
+}
+
+.container-post{
+    width: 100%;
+    height: 500px;
+}
+
+.container-post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-title{
+    padding: 15px 25px;
+    width: 100%;
+}
+
+.container-title .name-artist{
+    padding: 5px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container-title h2{
+    color: #ffffff;
+    padding: 5px 0px;
+}
+
+.container-songs{
+    width: 100%;
+    padding: 10px 25px;
+    min-height: 200px;
+}
+
+.list{
+    width: 100%;
+}
+
+.list-songs{
+    position: relative; right: 30px;
+}
+
+.song{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 19px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    border-bottom: 1px dotted gray;
+    transition: all .3s;
+    cursor: pointer;
+}
+/*
+.song:hover{
+    color: #fff;
+    border-bottom: 1px dotted tan;
+}
+
+.container-background{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/*
+.container-background img{
+    width: 50%;
+    height: 50%;  
+}
+<div class="container-background">
+		 <img src="img/dyk.jpg" alt="Dee Yan-Kee">
+	</div>
+*/
